@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: century gothic;
+}
+
+
+
+body {
+    
+    background-image: linear-gradient(rgba(0,0,0,0),#009688),url("Saved Pictures/1621272.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 50px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 0px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: black;
+}
+.content h1{
+    font-size: 60px;
+    margin-top: 10%;
+}
+.content p{
+    margin: auto;
+    font-weight: 200;
+    line-height: 55px;
+    font-size: larger;
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size: medium;
+}
+button:hover{
+    border: 1px; solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+    <!---- Features ---->
+feature{
+    width: 100;
+    position: absolute;
+    left: 50;
+    right: 50;
+    bottom: 30%;
+}
