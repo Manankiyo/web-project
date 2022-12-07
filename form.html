@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="login-form" class="login-page">
+    <div class="form-box">
+        <div class="button-box">
+        <div id="btn">
+    </div>
+    <button type="button" onclick="login()" class="toggle-btn">Log in</button>
+    <button type="button" onclick="Register()" class="toggle-btn">Register</button>
+        </div>
+    <form>
+        <form id="login" class="input-group-login">
+        <input type="text" class="input-field" placeholder="Username" required>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span>Remember password</span>
+        <button type="submit" class="submit-btn">Login</button>
+    </form>
+    <form id="register" class="input-group-register">
+        <input type="text" class="input-field" placeholder="Username" required>
+        <input type="email" class="input-field" placeholder="email" required>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+        <input type=" confirm password" placeholder="confirm Password" required>
+        <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+        <button type="submit" class="submit-btn">Register</button>
+    </form>
+</body>
+</html>

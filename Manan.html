@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="mananstyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cointainer">
+    <div class="card">
+        <div class="inner-box" id="card">
+        <div class="card-front">
+ <h2>LOGIN</h2>
+ <form name="flogin"></form>
+        <form>
+        <input type="text" class="input-box" placeholder="Username" required>
+        <input type="password" class="input-box" placeholder="Enter Password" required>
+        <button type="submit" class="submit-btn">Submit</button>
+        <input type="checkbox" class="check-box"><span>Remember Me</span>
+    </form>
+    <button type="checkbox" class="btn" onclick="openREGISTER()">Im new here</button>
+    <a href="">Forgot password</a>
+    </div>
+    <div class="card-back">
+        <h2>REGISTER</h2>
+    <form>
+        <input type="text" class="input-box" placeholder="Username" required>
+        <input <type="email" class="input-box" placeholder="email" required>
+        <input type="password" class="input-box" placeholder="Enter Password" required>
+        <input type=" cpassword" class="input-box" placeholder="confirm Password" required>
+        <div>
+        <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+        </div>
+        <button type="submit" class="submit-btn">Register</button><onclick="x()">
+    </form>
+    <button type="checkbox" class="btn" onclick="openLOGIN()">I have an acount</button>
+    <a href="">Forgot password</a>
+    </div>
+        </div>
+    </div>
+    </div>
+    
+    <script>
+        var card = document.getElementById("card");
+
+        function openREGISTER(){
+            card.style.transform = "rotateY(-180deg)";
+        }
+        function openLOGIN(){
+            card.style.transform = "rotateY(0deg)";
+        }
+    </script>
+
+<script>
+    function x() {
+        var pwd = document.flogin.password.value;
+        var confirmpwd = document.flogin.cpassword.value;
+
+        if(pwd!==confirmpwd) {
+            alert("incorrect password");
+        }
+    }
+</script>
+</body>
+</html>

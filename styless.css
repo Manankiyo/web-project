@@ -1,35 +1,20 @@
 *{
     margin:0;
     padding:0;
-    font-family: century gothic;
+    font-family: 'Franklin Gothic Medium';
 }
 
-
-
-body {
-    
-    background-image: linear-gradient(rgba(0,0,0,0),#009688),url("Saved Pictures/1621272.jpg");
+.bg1{
+    background-image: url("hotel.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+
 .navbar{
     width: 1200px;
     height: 75px;
     margin: auto;
-}
-.icon{
-    width: 200px;
-    float: left;
-    height: 50px;
-}
-.logo{
-    color: #ff7200;
-    font-size: 35px;
-    font-family: arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 0px;
 }
 
 ul{
@@ -69,7 +54,7 @@ ul li.active a{
 }
 .content h1{
     font-size: 60px;
-    margin-top: 10%;
+    margin-top: 0%;
 }
 .content p{
     margin: auto;
@@ -94,11 +79,119 @@ button:hover{
     background: #f44336;
     transition: 1s;
 }
-    <!---- Features ---->
-feature{
-    width: 100;
+.c1{
     position: absolute;
-    left: 50;
-    right: 50;
-    bottom: 30%;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 250px;
+
+}
+.c2{
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    width: 700px;
+    height: 250px;
+}
+.c3{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    width: 500px;
+    height: 250px;
+}
+.P1{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    font-size: larger;
+    font-weight: 500;
+    color: #f44336;
+    z-index: 6;
+}
+.P2{
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    font-size: larger;
+    font-weight: 100;
+    font-style: oblique;
+    z-index: 6;
+}
+.background{
+    background-color: gray;
+    opacity: 0.5;
+    width: 50%;
+    z-index: 5;
+    left: 0;
+    min-height: 1000px;
+    position: absolute;
+    min-width: 500px;
+    top: 300px;
+}
+.founder{
+    position: absolute;
+    right: 250px;
+    top: 300px;
+    z-index: 6;
+}
+.Ruto{
+position: absolute;
+top: 300px;
+right: 80px;
+border-radius: 120px;
+
+}
+    .background2{
+        background-color: burlywood;
+        opacity: 0.5;
+        width: -50%;
+        z-index: 5;
+        right: 0;
+        min-height: 1000px;
+        position: absolute;
+        min-width: 500px;
+        top: 300px;
+}
+.color2{
+    background-color: blueviolet;
+}
+.cointainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.cointainer2 .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.cointainer2 .heading h3{
+    font-size: 3cm;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    padding-bottom: 10px;
+}
+
+.cointainer2 .heading h3 span{
+    font-weight: 100;
+}
+.cointainer2 .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cointainer2 .box .dream{
+display: flex;
+flex-direction: column;
+width: 32.5%;
+}
+.cointainer2 .box .dream img{
+width: 100%;
+padding-bottom: 15px;
+border-radius: 15px;
 }

@@ -1,0 +1,30 @@
+body{
+    border: ;
+    color: red;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+div{
+    text-align: center;
+    font-size: large;
+    gap: 50px;
+}
+input{
+    border-style: solid;
+    border-width: thick;
+    position: relative;
+}
+label{
+    font-size: larger;
+}
+.bg4{
+    background-image: url("logistic image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    background-color: aqua;
+}

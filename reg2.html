@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="myregstyle.css">
+        <title><Form></title>
+            <script>
+                function x() {
+                    var pwd = document.flogin.password.value;
+                    var confirmpwd = document.flogin.cpassword.value;
+
+                    if(pwd!==confirmpwd) {
+                        alert("incorrect password");
+                    }
+                }
+            </script>
+        </head>
+    <body class="bg4">
+        <h1>Registration form</h1>
+  
+            <div>
+            <input type="Submit" id="submit" name="submit" onclick="x()">
+            <input type="reset" id="reset" name="reset">
+            </div>
+        </form>
+    </body>
+</html>

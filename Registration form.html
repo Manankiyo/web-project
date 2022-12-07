@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="myregstyle.css">
+        <title><Form></title>
+            <script>
+                function x() {
+                    var pwd = document.flogin.password.value;
+                    var confirmpwd = document.flogin.cpassword.value;
+
+                    if(pwd!==confirmpwd) {
+                        alert("incorrect password");
+                    }
+                }
+            </script>
+        </head>
+    <body class="bg4">
+        <h1>Registration form</h1>
+        <form name="flogin">
+        <form action="results.html" method="get">
+            <div>
+            <label for="sname">Surname</label>
+            </div>
+        <div>
+            <input type="text" name="Surname" id="Surname" required>
+            </div>
+            <div>
+                <label for="othernames">Othernames</label>
+                </div>
+                <div>
+                <input type="text" name="Othername" id="Other name" required>
+            </div>
+            <div>
+                <label for="Phone">Phone Number</label>
+                </div>
+                <div>
+                <input type="number" name="Phone Number" id="name" placeholder="numerals" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                </div>
+                <div>
+                <input type="email" name="Email" id="Email" optional>
+            </div>
+            <div>
+            <label for="password">Password</label>
+            </div>
+            <div>
+            <input type="password" id="password" name="password">
+        <br>
+            </div>
+            <div>
+                <label for="password">Confirm Password</label>
+                </div>
+                <div>
+                <input type="password" id="cpassword" name="cpassword">
+            <br/>
+            </div>
+            <div>
+                Gender
+                </div>
+                <div>
+                    <label for="Male">Male</label>
+                   <input type="radio" name="Gender" id="Male">
+                   </div>
+                   <div>
+                       <label for="Female">Female</label>
+                       <input type="radio" name="Gender" id="Female">
+                   </div>
+            <div>
+            <input type="Submit" id="submit" name="submit" onclick="x()">
+            <input type="reset" id="reset" name="reset">
+            </div>
+        </form>
+    </body>
+</html>
